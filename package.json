@@ -1,0 +1,27 @@
+{
+  "name": "dora-metrics",
+  "version": "1.0.0",
+  "description": "dora metrics data auto generator",
+  "main": "./server/src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiKun-TW/dora-metrics.git"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "MODE=DEV ts-node-dev --respawn --transpileOnly ./server/src/index.ts",
+    "start": "MODE=PRODUCTION tsc && cd web && yarn build && cd .. && node ./build/src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XiKun-TW/dora-metrics/issues"
+  },
+  "homepage": "https://github.com/XiKun-TW/dora-metrics#readme",
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "express": "^4.17.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  }
+}
