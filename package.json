@@ -20,7 +20,7 @@
   "homepage": "https://github.com/XiKun-TW/dora-metrics#readme",
   "dependencies": {
     "@types/express": "^4.17.6",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "open": "^7.0.3",
     "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.8.3"
